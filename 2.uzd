@@ -25,10 +25,10 @@ def analyze_privileged_accounts(user_list):
         if role == 'Administrator' or role == 'SuperUser':
             privileged_users.append(username)
             
-    print(f"Total Privileged Accounts: {len(privileged_users)}")
+    print(f"Kopējais privilēģiju kontu skaits: {len(privileged_users)}")
     
     
-    print("Sample of 3 privileged accounts:")
+    print("3 privilēģiju kontu paraugs:")
     for user in privileged_users[:3]:
         print(f"- {user}")
 
