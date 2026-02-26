@@ -21,4 +21,4 @@ for user_data in users:
 
     if password_age > 90:
         days_ago = password_age - 90
-        print(f"SECURITY: User [{username}] expired [{days_ago}] days ago.")
+        print(f"DROŠĪBA: User [{username}] termiņš beidzās pirms [{days_ago}]  dienām.")
